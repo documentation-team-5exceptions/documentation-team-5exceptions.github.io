@@ -361,7 +361,7 @@ Example:
 
 ```sh
 SUPPORTED_SUBMIT_METHODS="[\"get\", \"post\"]"
-URLS="[ { url: \"https://petstore.swagger.io/v2/swagger.json\", name: \"Petstore\" } ]"
+URLS="[ { url: \"truvideo.json\", name: \"Petstore\" } ]"
 ```
 
 ##### Object variables
@@ -379,5 +379,5 @@ SPEC="{ \"openapi\": \"3.0.4\" }"
 #### .env file example encoding
 ```sh
 SUPPORTED_SUBMIT_METHODS=['get', 'post']
-URLS=[ { url: 'https://petstore.swagger.io/v2/swagger.json', name: 'Petstore' } ]
+URLS=[ { url: 'truvideo.json', name: 'Petstore' } ]
 ```

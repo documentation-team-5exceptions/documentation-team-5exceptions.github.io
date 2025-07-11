@@ -244,7 +244,7 @@ const ui = SwaggerUIBundle({
   ],
   layout: "StandaloneLayout",
   validatorUrl: "https://validator.swagger.io/validator",
-  url: "https://petstore.swagger.io/v2/swagger.json",
+  url: "truvideo.json",
   ...snippetConfig,
 })
 ```
@@ -303,7 +303,7 @@ plugins with additional custom components.
 
 ```js
 const swaggerUI = SwaggerUI({
-  url: "https://petstore.swagger.io/v2/swagger.json",
+  url: "truvideo.json",
   dom_id: '#swagger-ui',
   plugins: [
     () => ({
@@ -391,7 +391,7 @@ const CustomFallbackPlugin = () => ({
 });
 
 const swaggerUI = SwaggerUI({
-  url: "https://petstore.swagger.io/v2/swagger.json",
+  url: "truvideo.json",
   dom_id: '#swagger-ui',
   plugins: [
     CustomFallbackPlugin,

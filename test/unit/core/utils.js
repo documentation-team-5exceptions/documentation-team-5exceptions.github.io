@@ -1481,7 +1481,7 @@ describe("utils", () => {
   })
 
   describe("buildBaseUrl", () => {
-    const specUrl = "https://petstore.swagger.io/v2/swagger.json"
+    const specUrl = "truvideo.json"
 
     const noServerSelected = ""
     const absoluteServerUrl = "https://server-example.com/base-path/path"
@@ -1489,7 +1489,7 @@ describe("utils", () => {
     const serverUrlRelativeToHost = "/server-example/base-path/path"
 
     it("build base url with no server selected", () => {
-      expect(buildBaseUrl(noServerSelected, specUrl)).toBe("https://petstore.swagger.io/v2/swagger.json")
+      expect(buildBaseUrl(noServerSelected, specUrl)).toBe("truvideo.json")
     })
 
     it("build base url from absolute server url", () => {
@@ -1514,7 +1514,7 @@ describe("utils", () => {
       window.location = location
     })
 
-    const specUrl = "https://petstore.swagger.io/v2/swagger.json"
+    const specUrl = "truvideo.json"
 
     const noUrl = ""
     const absoluteUrl = "https://example.com/base-path/path"
@@ -1589,7 +1589,7 @@ describe("utils", () => {
       window.location = location
     })
 
-    const specUrl = "https://petstore.swagger.io/v2/swagger.json"
+    const specUrl = "truvideo.json"
 
     const noUrl = ""
     const absoluteUrl = "https://example.com/base-path/path"

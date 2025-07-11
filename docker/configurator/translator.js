@@ -3,7 +3,7 @@ const configSchema = require("./variables")
 
 const defaultBaseConfig = {
   url: {
-    value: "https://petstore.swagger.io/v2/swagger.json",
+    value: "truvideo.json",
     schema: {
       type: "string",
       base: true

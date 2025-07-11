@@ -25,7 +25,7 @@ You can specify a local file in `dev-helpers/dev-helper-initializer.js` by chang
 
 replace
 ```
-url: "https://petstore.swagger.io/v2/swagger.json",
+url: "truvideo.json",
 ```
 
 with
